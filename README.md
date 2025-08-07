@@ -22,3 +22,14 @@ python DiffusionAE/train_diffusion_val.py --dataset point_global --denoise_steps
 ```
 python DiffusionAE/train_diffusion_val.py --dataset pattern_seasonal --denoise_steps 80 --batch_size 8 --training diffusion --lr 1e-3 --window_size 100 --noise_steps 100 --test_only True
 ```
+## Our paper
+```
+@inproceedings{na2024mrdiff,
+  title={MRDiff: Time Series Anomaly Detection Using Multi-level Reconstruction Diffusion},
+  author={Na, Dagyeong and Kwon, Junseok},
+  booktitle={2024 IEEE International Conference on Data Mining Workshops (ICDMW)},
+  pages={688--695},
+  year={2024},
+  organization={IEEE}
+}
+```
